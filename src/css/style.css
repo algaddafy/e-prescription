@@ -1,0 +1,68 @@
+
+.linear-grad
+{
+	-fx-background-color: linear-gradient(to bottom left, #6F40BB,#431FA0);
+}
+.button-1
+{
+	-fx-background-color: #6F4CBB;
+	-fx-text-fill: #ffffff;
+}
+.button-1:hover
+{
+	-fx-text-fill:#431FA0;
+}
+.button-1:pressed
+{
+	-fx-text-fill: #371897;
+}
+.button-2
+{
+	-fx-background-color:#D5CBEB;
+	-fx-background-radius: 3;
+	-fx-text-fill: #371897;
+	-fx-border-color: #6F4CBB;
+	-fx-border-radius: 3;
+}
+.button-2:hover
+{
+	-fx-background-color: #E4EEFD;
+}
+.button-2:pressed
+{
+	-fx-background-color: #E4EEFD;
+}
+.button-menu
+{
+    -fx-background-color: linear-gradient(to bottom left, #141e30, #243b55);
+    -fx-background-radius: 30;
+    -fx-border-color: #6F4CBB;
+    -fx-border-radius: 30;
+    -fx-text-fill: #ffffff;
+}
+.button-menu:hover
+{
+	-fx-background-color: #004e92;
+}
+.button-cancel
+{
+    -fx-background-color: #f94144;
+    -fx-background-radius: 30;
+
+    -fx-border-radius: 30;
+    -fx-text-fill: #FFFFFF;
+}
+.button-cancel:hover
+{
+	-fx-background-color:  #f7f7ff;
+	-fx-background-radius: 30;
+	-fx-border-radius:30;
+	-fx-text-fill:#f94144;
+}
+.button-save
+{
+    -fx-background-color: linear-gradient(to bottom left, #141e30, #243b55);
+    -fx-background-radius: 30;
+    -fx-border-radius:30;
+    -fx-text-fill: #ffffff;
+}

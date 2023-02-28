@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="180.0" prefWidth="344.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Item">
+   <children>
+      <HBox prefHeight="180.0" prefWidth="344.0" spacing="50.0">
+         <children>
+            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" styleClass="linear-grad" stylesheets="@style.css" text="Yes" textFill="WHITE">
+               <HBox.margin>
+                  <Insets left="90.0" top="90.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Button>
+            <Button mnemonicParsing="false" prefHeight="30.0" prefWidth="60.0" style="-fx-background-color: #f94144;" stylesheets="@style.css" text="No" textFill="WHITE">
+               <HBox.margin>
+                  <Insets top="90.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <Label layoutX="33.0" layoutY="14.0" text="Are You Sure, You Want to Sign Out?">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
